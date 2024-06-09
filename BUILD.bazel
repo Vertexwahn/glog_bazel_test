@@ -1,0 +1,12 @@
+
+cc_test(
+    name = "glog_test",
+    size = "small",
+    srcs = [
+        "glog_test.cpp",
+    ],
+    deps = [
+        "@glog",
+        "@googletest//:gtest_main",
+    ],
+)
