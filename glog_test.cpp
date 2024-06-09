@@ -10,8 +10,8 @@
 #include "gmock/gmock.h"
 
 TEST(glog, log_message) {
-    FLAGS_logtostderr = true;
-    google::SetLogDestination(google::GLOG_INFO, "log.txt");
+    //FLAGS_logtostderr = true;
+    //google::SetLogDestination(google::GLOG_INFO, "log.txt");
 
     const char *argv[] = {"some_program", nullptr};
     google::InitGoogleLogging(argv[0]);
