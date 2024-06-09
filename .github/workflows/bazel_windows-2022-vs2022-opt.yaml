@@ -13,4 +13,4 @@ jobs:
 
       - name: Bazel test
         run: |
-          bazel --output_base=C:/bazel_output_base test --test_output=errors --config=vs2022 -- //..
+          bazel --output_base=C:/bazel_output_base test --test_output=errors --config=vs2022 -- //...
